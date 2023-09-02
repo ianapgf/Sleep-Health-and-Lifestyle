@@ -1,8 +1,3 @@
-Professor: Pedro Girotto
-Alunos: Ianã Paranatinga Guerra Fonteles de Lima e João Victor Portela
-EC4MA
-02/09/2023
-
 Sleep Health and Lifestyle Dataset
 
 
