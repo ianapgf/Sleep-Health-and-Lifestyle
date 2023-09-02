@@ -31,8 +31,8 @@ app.layout = html.Div(children=[
 def update_stacked_bar_chart(selected_occupation):
     filtered_df = df[df['Occupation'] == selected_occupation]
 
-    fig = px.bar(filtered_df, x="Quality of Sleep", y="Physical Activity Level", color="Occupation", barmode="stack",
-                 title=f'Correlação entre Atividade Física e Estresse ({selected_occupation})')
+    fig = px.bar(filtered_df, x="Physical Activity Level", y="Quality of Sleep", color="Occupation", barmode="stack",
+                 title=f'Correlação entre Atividade Física e Qualidade de Sono ({selected_occupation})')
 
     return fig
 
